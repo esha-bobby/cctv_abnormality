@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.env
+.DS_Store
+*.mp4
+*.avi
+*.mov
+
+data/sequences.npz
+data/sequences_balanced.npz
+data/training_features.npz
+# Large project artifacts kept local to keep the repo lightweight for GitHub
+*.npz
+*.npy
+*.pth
+*.png
+*.mp4
+*.avi
+*.mov

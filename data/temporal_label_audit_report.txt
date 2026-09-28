@@ -1,0 +1,43 @@
+============================================================
+TEMPORAL LABEL AUDIT REPORT
+============================================================
+
+Total original annotation rows (preview CSV): 295
+Total final clean intervals:                 264
+
+Final label distribution (clean intervals):
+  0  (normal):    145
+  1  (abnormal):  68
+  -1 (ambiguous): 51
+
+Number of corrected labels (label value changed from preview): 5
+Number of clean intervals formed by merging 2+ original rows: 23
+Number of original rows absorbed via merge (no label change): 50
+Number of overlapping-interval conflicts resolved (different labels): 7
+  (Abuse005 11.5-13.9, Abuse006 124.4-130.4 [exact-duplicate-timestamp conflicts];
+   Abuse003 x2 boundary trims, Abuse006 x3 boundary trims, Abuse015 x2 event-priority
+   overrides and 1 boundary trim - see temporal_label_audit.csv change_reason column)
+Number of unresolved ambiguous (-1) intervals: 51
+
+Per-video summary (clean intervals):
+video             total  abnormal  normal  ambiguous
+Abuse001_x264         7         1       4          2
+Abuse003_x264        25         0      14         11  <-- ZERO abnormal intervals
+Abuse005_x264         8         3       4          1
+Abuse006_x264        26        10      10          6
+Abuse012_x264        13         5       6          2
+Abuse015_x264        30         3      25          2
+Abuse018_x264         5         1       3          1
+Abuse020_x264         7         3       3          1
+Abuse025_x264         5         4       1          0
+Abuse026_x264         5         2       1          2
+Abuse029_x264         4         0       4          0  <-- ZERO abnormal intervals
+Abuse031_x264        10         0      10          0  <-- ZERO abnormal intervals
+Abuse032_x264         9         3       4          2
+Abuse037_x264         4         0       4          0  <-- ZERO abnormal intervals
+Abuse041_x264         6         0       6          0  <-- ZERO abnormal intervals
+Abuse042_x264        42         3      31          8
+Abuse044_x264        17         6       5          6
+Abuse045_x264        14         9       5          0
+Abuse048_x264        21        15       2          4
+Abuse049_x264         6         0       3          3  <-- ZERO abnormal intervals

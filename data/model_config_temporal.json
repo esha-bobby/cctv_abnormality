@@ -1,0 +1,10 @@
+{
+  "threshold": 0.3,
+  "validation_f1": 0.1216,
+  "sequence_length": 16,
+  "input_size": 1280,
+  "hidden_size": 128,
+  "num_layers": 1,
+  "model_file": "data/lstm_abnormal_behavior_temporal.pth",
+  "training_time_seconds": 4.0
+}
